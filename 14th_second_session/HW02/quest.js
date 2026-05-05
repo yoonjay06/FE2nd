@@ -183,7 +183,7 @@ Hint: 이중 for문 활용
 
 // 여기에 코드를 작성하세요.
 for (let i = 1; i <=5; i++) {
-  console.log("".repeat(5 - i) + "*".repeat(2 * i -1));
+  console.log(" ".repeat(5 - i) + "*".repeat(2 * i -1));
 }
 
 console.log("고생하셨습니다!!");
