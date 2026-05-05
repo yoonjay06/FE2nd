@@ -1,1 +1,21 @@
 /* @keyframes 사용해서 fadeIn 제외 애니메이션 적용해서 꾸미기! */
+/* step3/animation.css내용을 붙여넣기! */
+/* fadeIn animation 정의하기*/
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ===============================*/
+
+/* 박스에 적용하기 */
+.box:nth-child(2) {
+    animation-name: zoomIn;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+}
+/* ===============================*/
