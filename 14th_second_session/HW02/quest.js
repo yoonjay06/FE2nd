@@ -82,7 +82,7 @@ const arr3 = [1, 2, 3, 4, 5, 6];
 console.log(arr3.map((num) => num * 10));
 // Q3-2. filter 함수와 arr3을 활용하여 [1, 3, 5]를 출력하시오.
 // Hint: 홀수와 짝수 구분은 "% 2"를 활용
-console.log(arr3.filter((num) % 2 === 1));
+console.log(arr3.filter((num) => num % 2 === 1));
 
 console.log("======= 문제 구분선 =======");
 
