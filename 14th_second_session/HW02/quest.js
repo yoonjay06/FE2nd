@@ -115,7 +115,7 @@ function isLeap(year) {
     return "윤년이 맞습니다.";
   }
   else {
-    "윤년이 아닙니다.";
+    return "윤년이 아닙니다.";
   }
 }
 
